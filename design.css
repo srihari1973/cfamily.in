@@ -85,7 +85,6 @@ h4{
 p,ul{
 	font-size:25px;
 	font-family: arial;
-	text-transform: capitalize;
 	color:rgb(17, 87, 94);
 	font-weight: bold;
 	line-height: 1.5;
@@ -174,15 +173,18 @@ address{
 }
 
 .icbox{
+	color:white;	
+	font-size:50px;
+	text-shadow: 5px 5px 7px rgb(122, 121, 122);
 	border-style:groove;
 	border-width:5px;
 	border-color:lightgrey;
-	display: flex;
+	display: inline-flex;
 	text-decoration:none;
-	padding:10px;
-	font-size:20px;
+	padding:5px;
 	border-radius:20px;
 }
+
 
 .icbox:hover{
 	background-color:rgba(0,0,0,0.5);
@@ -195,14 +197,14 @@ address{
 }
 
 .phoneb{
-    display: inline-flex; 
+    	display: inline-flex; 
 	align-items: center;
-	font-size:35px;
+	font-size:50px;
 	color: white;
 	text-shadow: 5px 5px 7px rgb(122, 121, 122);
 	text-decoration:none;
 	border:5px groove lightgrey;
-	padding: 15px;
+	padding: 5px;
 	border-radius:20px;
 }
 
